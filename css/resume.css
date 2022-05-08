@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+:root {
+  --body-background: darkgray;
+  --splash-background: rgba(149, 149, 149, 0.95);
+  --content-border: gray;
+  --content-background: white;
+  --text: black;
+  --black: black;
+  --copyright-text: black;
+  --subtitle-underline: red;
+  --jobtitle-underline: #00838f;
+  --left-right: red;
+  --company: #1976d2;
+  --button: #e4e4e4;
+  --button-hover: #2e2e2e;
+  --button-ative: #c8c8c8;
+  --button-text-hover: #cccccc;
+  --extra-background: #f2f2f2;
+  --experience-font-weight: 600;
+  --beginner: #00bfa5;
+  --intermediate: #d03ebf;
+  --advanced: #1976d2;
+  --link-color: #1976d2;
+  --link-color-hover: #64b5f6;
+
+}
+
+/* overwrite these to the root colours in "@media print" */
+[data-theme="dark"] {
+  --content-background: #2e2e2e;
+  --text: #cccccc;
+  --subtitle-underline: #be0000;
+  --jobtitle-underline: #00bfa5;
+  --extra-background: #434343;
+  --experience-font-weight: 500;
+  --link-color: #64b5f6;
+  --link-color-hover: #1976d2;
+}
+
+
+/* https://code-boxx.com/full-screen-css-loading-spinner/ */
+#splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background: var(--splash-background);
+  transition: opacity 1000ms;
+}
+#splash img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+#splash {
+  opacity: 0;
+}
+#splash.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+* {
+  font-size: 99%;
+}
+
+hr {
+  height: 1.5px;
+  border: none;
+  background-color: var(--black);
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0% 1% 1% 1%;
+  color: var(--text);
+  background-color: var(--body-background);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-block-end: -0.5em;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav div.fullButton {
+  width: 25%;
+}
+
+nav div.halfButton {
+  width: 12.5%;
+  display: flex;
+  align-items: flex-start;
+}
+
+nav div.halfButton buton {
+  width: 50%;
+}
+
+nav button {
+  width: 100%;
+  padding: 8px;
+  background-color: var(--button);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+nav button:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-hover);
+}
+
+nav button.active:hover {
+  color: var(--black);
+}
+
+nav div.halfButton  button:hover svg {
+  fill: var(--button-text-hover);
+}
+
+nav button.active {
+  padding-bottom: 16px;
+  margin-bottom: 6px;
+  text-decoration: underline 2px;
+  background-color: var(--button-ative);
+  border-radius: 0 0 10px 10px;
+}
+
+nav div.halfButton button.active {
+  border-radius: 0 0 10px 0;
+}
+
+button:disabled {
+  background-color: transparent;
+}
+
+h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-size: 2.47em;
+}
+
+h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0.25em;
+  font-size: 2.0em;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin-block-start: 0em;
+  margin-block-end: -0.7em;
+  padding-top: 1%;
+  border-bottom: 1px solid var(--subtitle-underline);
+}
+
+h4 {
+  margin-left: 2%;
+  margin-block-start: 1.0em;
+  margin-block-end: 0em;
+}
+
+table {
+  margin-left: 2%;
+  margin-block-start: 1.0em;
+  margin-block-end: 1.0em;
+}
+
+table td {
+  vertical-align: top;
+}
+
+p:not(#about p) {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+ul:not(#tools ul, #hobbies ul, #about ul) {
+  margin-block-start: 0em;
+  margin-block-end: 1.0em;
+}
+
+svg {
+  margin-right: 1%;
+  margin-bottom: -0.1%;
+}
+.home svg {
+  margin-right: 2%;
+}
+.mail svg {
+  margin-right: 3px;
+  margin-bottom: -1%;
+}
+
+footer {
+  text-align: center;
+  color: var(--copyright-text);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-color-hover);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1%;
+}
+
+.column {
+  padding: 1%;
+}
+
+.column > p:last-child {
+  margin-bottom: 0;
+}
+.column > table:last-child {
+  margin-bottom: -0.5em;
+}
+.column > div:last-child {
+  margin-bottom: -1em;
+}
+
+.leftOffCenter{
+  border-right: 1px dashed var(--left-right);
+  padding-right: 2%;
+  flex: 33%; /*38%*/
+}
+.leftCenter {
+  border-right: 1px dashed var(--left-right);
+  padding-right: 2%;
+  flex: 50%;
+}
+
+.rightOffCenter{
+  flex: 67%; /*62%*/
+  margin-top: -0.3%; /* the uneven division of right and left cause top misalignment */
+  padding-left: 2%;
+}
+.rightCenter{
+  flex: 50%;
+  padding-left: 2%;
+}
+
+/* In case it goes to 2 pages..
+.experience:not(:nth-child(2)) {
+  margin-top: -0.5em;
+}
+*/
+
+.company {
+  color: var(--company);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.activeYears {
+  font-size: 90%;
+}
+
+.role {
+  text-decoration: underline var(--jobtitle-underline);
+}
+
+.language {
+  width: 70%;
+}
+
+.experienceSubHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.experienceSubHeader + .experienceSubHeader:not(.extra .experienceSubHeader) {
+  margin-top: -1em;
+}
+
+.subProject + .subProject {
+  margin-top: -0.5em;
+}
+
+.mulTitle {
+  margin-left: 1%;
+  margin-top: -1.0em;
+}
+
+.project {
+  display: inline-flex;
+  width: 98%;
+  grid-column-gap: 2%;
+  margin-left: 2%;
+}
+
+.project,
+.extra h4,
+.extra span {
+  margin-block-start: 0;
+}
+div.extra:not(.subProject) {
+  border-top: 1.0em solid var(--content-background);
+}
+.extra {
+  background-color: var(--extra-background);
+}
+
+/* button text after icons */
+.narrow {
+  display: none;
+}
+
+table .advanced {
+  color: var(--advanced);
+  font-weight: var(--experience-font-weight);
+}
+table .intermediate {
+  color: var(--intermediate);
+  font-weight: var(--experience-font-weight);
+}
+table .beginner {
+  color: var(--beginner);
+  font-weight: var(--experience-font-weight);
+  min-width: 80px; /* hack to make the tables identically sized */
+}
+
+
+/* -- Id --- */
+#content {
+  margin-top: 1%;
+  background-color: var(--content-background);
+  border: solid 4px var(--content-border);
+  padding: 0.5%;
+}
+
+#top {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 0.5em;
+}
+
+#areaContact  {
+  display: flex;
+  column-gap: 5%;
+}
+
+#url {
+  visibility: hidden;
+}
+
+#image {
+  margin-bottom: -55px;
+}
+
+#certificates table td {
+  border-bottom: 1px dashed var(--content-border);
+}
+#certificates table tr:last-child td {
+  border-bottom: 0;
+}
+
+#list .column table {
+  font-size: 95%;
+  padding: 1%;
+}
+#list td {
+  width: 100%;
+}
+#list td.empty {
+  width: 10%;
+}
+
+#about ul {
+  margin-top: -0.8em;
+}
+
+#about h3 + p {
+  margin-top: 1.1em;
+}
+
+/* when using the browser print option */
+@media print {
+  header, footer {
+    display: none;
+  }
+  .extra {
+    background-color: revert;
+  }
+/* FIXME! comment back in when the DNS is set up
+  #url {
+    visibility: visible;
+  }
+*/
+  /* Use light theme when printing */
+  [data-theme="dark"]  {
+    --content-background: white;
+    --text: black;
+    --subtitle-underline: red;
+    --jobtitle-underline: #00838f;
+    --experience-font-weight: 600;
+    --link-color: #1976d2;
+  }
+}
+
+/* mobile with no hover mechanism */
+@media (hover: none) {
+  nav button:hover { /* ironic, isn't it? */
+    color: var(--black);
+    background-color: var(--button);
+  }
+
+  nav button:disabled {
+    background-color: transparent;
+  }
+
+  nav div.halfButton  button:hover svg {
+    fill: var(--black);
+  }
+
+  nav button.active {
+    background-color: var(--button-ative);
+  }
+}
+
+/* mobile and small screens */
+@media screen and (max-width: 600px) {
+  header {
+    border-left: 4px solid var(--content-border);
+    border-right: 4px solid var(--content-border);
+  }
+
+  nav {
+    margin-bottom: -1%;
+    flex-direction: column;
+  }
+
+  nav button {
+    text-align: left;
+  }
+
+  nav div.fullButton {
+    width: 100%;
+    order: 3;
+  }
+
+  nav div.halfButton {
+    width: 100%;
+    order: 2;
+  }
+
+  nav div.halfButton:last-child {
+    order: 1;
+  }
+
+  nav button.active,
+  nav div.halfButton button.active {
+    margin-bottom: 0px;
+    border-radius: 0;
+  }
+
+  .mail svg {
+    margin-bottom: -0.35%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .column > p:last-child {
+    margin-bottom: revert;
+  }
+  .column > table:last-child {
+    margin-bottom: revert;
+  }
+  .column > div:last-child {
+    margin-bottom: revert;
+  }
+
+  .leftOffCenter,
+  .leftCenter {
+    border-right: revert;
+    flex: 100%;
+  }
+
+  .rightOffCenter,
+  .rightCenter {
+    padding-left: 1%;
+    padding-bottom: 2%;
+    flex: 100%;
+  }
+
+  .narrow {
+    display: revert;
+  }
+
+  #top {
+    flex-direction: column-reverse;
+  }
+
+  #areaContact  {
+    flex-direction: column;
+  }
+
+  #image {
+    margin-bottom: 0px;
+  }
+
+  #url {
+    display: none;
+  }
+
+  #about,
+  #resume {
+    margin-bottom: -0.5em;
+  }
+}

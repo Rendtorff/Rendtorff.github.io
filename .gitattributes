@@ -1,0 +1,8 @@
+## Git line endings
+
+# Set default to automatically normalize line endings.
+*              text=auto
+
+# Do not make changes to image files
+*.gif          binary
+*.ico          binary

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <script type="text/javascript" src="scripts/resumeObject.js"></script>
+    <script type="text/javascript" src="scripts/resume.js"></script>
+
+    <title>loading..</title>
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <div class="halfButton">
+          <button id="aboutButton">About Me</button>
+        </div>
+        <div class="fullButton">
+          <button id="listButton">Non-exhaustive List</button>
+        </div>
+        <div class="fullButton">
+          <button id="onePageButton" class="active">One Page Résumé</button>
+        </div>
+        <div class="fullButton">
+          <button id="extendedButton">Extended Résumé</button>
+        </div>
+        <div class="halfButton">
+          <button id="confettiButton"></button>
+          <button id="lightDarkButton"></button>
+        </div>
+      </nav>
+    </header>
+
+    <noscript>
+      <!-- https://stackoverflow.com/a/3926750 -->
+      <style type="text/css">
+        #content {
+          display:none;
+        }
+        .noscriptmsg {
+          font-size: 48px;
+          padding: 2%;
+          text-align: center;
+          background-color: white;
+        }
+      </style>
+      <div class="noscriptmsg">
+        <p>You don't have JavaScript enabled.</p>
+        <p>Good luck with that ;)</p>
+      </div>
+    </noscript>
+
+    <div id="splash" class="show">
+      <img src="images/splash.gif"/>
+    </div>
+
+    <div id="content">
+      <div id="top">
+        <div id="header"></div>
+        <div id="image"></div>
+      </div>
+
+      <div id="resume" class="row">
+        <div id="leftResume" class="column leftOffCenter">
+          <div id="technologies"></div>
+          <div id="tools"></div>
+          <div id="education"></div>
+          <div id="certificates"></div>
+          <div id="languages"></div>
+          <div id="hobbies"></div>
+        </div>
+        <div id="rightResume" class="column rightOffCenter">
+          <div id="experience"></div>
+        </div>
+      </div>
+
+      <div id="list" class="row" style= "display: none">
+        <div id="leftList" class="column leftCenter"></div>
+        <div id="rightList" class="column rightCenter"></div>
+      </div>
+
+      <div id="about" class="row" style= "display: none">
+        <div id="leftAbout" class="column leftCenter"></div>
+        <div id="rightAbout" class="column rightCenter"></div>
+      </div>
+
+    </div>
+
+    <footer>
+      <hr /><p></p>
+    </footer>
+
+  </body>
+</html>
