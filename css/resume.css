@@ -399,11 +399,9 @@ table .beginner {
   .extra {
     background-color: revert;
   }
-/* FIXME! comment back in when the DNS is set up
   #url {
     visibility: visible;
   }
-*/
   /* Use light theme when printing */
   [data-theme="dark"]  {
     --content-background: white;
