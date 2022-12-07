@@ -92,7 +92,7 @@ const resumeObject = {
       include: ["HTML, CSS & JavaScript"],
     },
     beginner: {
-      include: ["Python", "PowerShell"],
+      include: ["Python", "PowerShell", "DOS-scripting"],
       extra: ["Bash-scripting"],
     },
   },
@@ -127,15 +127,26 @@ const resumeObject = {
       name: "<a href=\"https://www.scrumalliance.org/community/profile/rrendtorff\" target=\"_blank\" rel=\"noopener noreferrer\">Certified ScrumMaster®</a>",
       place: "Scrum Alliance®"
     },
-/*
-    {
-      year: "2022",
-      name: "Something else",
-      place: "Some where else"
-    },
-*/
   ],
   experience: [
+    {
+      onePage: true,
+      years: "2022-2022",
+      title: "External Consultant as Systems Developer",
+      company: "Nordea",
+      projects: [
+        {
+          onePage: true,
+          name: "Oracle PL/SQL based reporting using data from a SimCorp Dimension database",
+          results: {
+            include: [
+                       "Modified existing reports to comply with new business requirements",
+                       "Documented processes and solutions in Confluence"
+                     ],
+          },
+        },
+      ],
+    },
     {
       onePage: true,
       years: "2016-2022",
@@ -270,9 +281,9 @@ const resumeObject = {
                        "Optimized SQL queries",
                        "Advised customer on user interfaces and techincal options",
                        "Educated customer on system use",
-                       "On 24 hour \"on call\" support",
                      ],
             extra: [
+                     "On 24 hour \"on call\" support",
                      "Managed patch and releases",
                      "Developed web user interfaces using Oracle's PL/SQL built-in packages",
                    ],
@@ -292,7 +303,6 @@ const resumeObject = {
           },
         },
         {
-          onePage: true,
           years: "1998-1999",
           name: "Electronic product catalogue for Louis Poulsen",
           title: "Developer",
@@ -330,13 +340,13 @@ const resumeObject = {
   },
   list: {
     "Project Lifecycle Methods": [
-      {item: "Agile & Scrum",                    level: "Intermediate", lastUsed: "2018"},
+      {item: "Agile & Scrum",                    level: "Intermediate", lastUsed: "2022"},
       {item: "Unified Processes",                level: "Intermediate", lastUsed: "2011"},
-      {item: "Traditional Waterfall",            level: "Advanced",     lastUsed: "2011"},
+      {item: "Traditional Waterfall",            level: "Advanced",     lastUsed: "2022"},
     ],
     "Project Lifecycle Tools": [
-      {item: "Jira",                             level: "Intermediate", lastUsed: "2016"},
-      {item: "Confluence",                       level: "Beginner",     lastUsed: "2016"},
+      {item: "Jira",                             level: "Intermediate", lastUsed: "2022"},
+      {item: "Confluence",                       level: "Beginner",     lastUsed: "2022"},
       {item: "Bamboo",                           level: "Beginner",     lastUsed: "2016"},
       {item: "Artifactory",                      level: "Beginner",     lastUsed: "2016"},
       {item: "BMC Remedy",                       level: "Beginner",     lastUsed: "2016"},
@@ -367,16 +377,17 @@ const resumeObject = {
       {
         header: "Oracle Database tools",
         items: [
-          {item: "SQL*Plus",                     level: "Advanced",     lastUsed: "2016"},
+          {item: "SQL*Plus",                     level: "Advanced",     lastUsed: "2022"},
           {item: "SQL*Net",                      level: "Beginner",     lastUsed: "2016"},
           {item: "Designer",                     level: "Beginner",     lastUsed: "2010"},
-          {item: "SQL Developer",                level: "Intermediate", lastUsed: "2016"},
+          {item: "SQL Developer",                level: "Intermediate", lastUsed: "2022"},
           {item: "Data Modeller",                level: "Beginner",     lastUsed: "2011"},
         ],
       },
       {item: "TortioseSVN",                      level: "Intermediate", lastUsed: "2014"},
       {item: "Git \"command line\"",             level: "Intermediate", lastUsed: "2022"},
-      {item: "TortioseGit",                      level: "Advanced",     lastUsed: "2016"},
+      {item: "TortioseGit",                      level: "Advanced",     lastUsed: "2022"},
+      {item: "Sourcetree",                       level: "Beginner",     lastUsed: "2022"},
       {item: "Microsoft Visual Source Safe",     level: "Intermediate", lastUsed: "2000"},
       {item: "Apache Maven",                     level: "Intermediate", lastUsed: "2022"},
       {item: "Gradle",                           level: "Intermediate", lastUsed: "2022"},
@@ -391,7 +402,8 @@ const resumeObject = {
       {item: "esri ArcView",                     level: "Beginner",     lastUsed: "2000"},
     ],
     "Text Formatting": [
-      {item: "XML",                              level: "Beginner",     lastUsed: "2016"},
+      {item: "XML",                              level: "Beginner",     lastUsed: "2022"},
+      {item: "JSON",                             level: "Intermediate", lastUsed: "2022"},
       {item: "HTML5 & CSS",                      level: "Intermediate", lastUsed: "2022"},
       {item: "LaTeX",                            level: "Intermediate", lastUsed: "2008"},
     ],
@@ -400,11 +412,11 @@ const resumeObject = {
       {
         header: "Microsoft Office",
         items: [
-          {item: "Outlook",                      level: "Intermediate", lastUsed: "2016"},
+          {item: "Outlook",                      level: "Intermediate", lastUsed: "2022"},
           {item: "Word",                         level: "Intermediate", lastUsed: "2018"},
-          {item: "Excel",                        level: "Intermediate", lastUsed: "2021"},
+          {item: "Excel",                        level: "Intermediate", lastUsed: "2022"},
           {item: "Powerpoint",                   level: "Beginner",     lastUsed: "2011"},
-          {item: "Visio",                        level: "Beginner",     lastUsed: "2013"},
+          {item: "Visio",                        level: "Beginner",     lastUsed: "2022"},
         ],
       },
       {item: "Linux Mint/Ubuntu",                level: "Beginner",     lastUsed: "2022"},
@@ -414,7 +426,7 @@ const resumeObject = {
       {item: "TrueCrypt & VeraCrypt",            level: "Intermediate", lastUsed: "2022"},
       {item: "KeePass",                          level: "Intermediate", lastUsed: "2022"},
       {item: "VPN (Virtual Private Network)",    level: "Beginner",     lastUsed: "2012"},
-      {item: "Notepad++",                        level: "Intermediate", lastUsed: "2012"},
+      {item: "Notepad++",                        level: "Intermediate", lastUsed: "2022"},
       {item: "Textpad",                          level: "Intermediate", lastUsed: "2012"},
       {item: "Flameshot",                        level: "Intermediate", lastUsed: "2022"},
       {item: "ScreenToGif",                      level: "Beginner",     lastUsed: "2021"},
@@ -422,7 +434,7 @@ const resumeObject = {
     ],
     "Database Management Systems": [
       {item: "Informix",                         level: "Intermediate", lastUsed: "1999"},
-      {item: "Oracle 8 - 18g",                   level: "Intermediate", lastUsed: "2021"},
+      {item: "Oracle 8 - 18g",                   level: "Intermediate", lastUsed: "2022"},
       {item: "MySQL",                            level: "Intermediate", lastUsed: "2021"},
       {item: "Miscrosoft SQL Server",            level: "Beginner",     lastUsed: "2021"},
     ],
@@ -433,10 +445,11 @@ const resumeObject = {
       {item: "Education",                        level: "Beginner",     lastUsed: "2010"},
       {item: "Capital Markets",                  level: "Beginner",     lastUsed: "2016"},
       {item: "Counterparty Credit Risk",         level: "Intermediate", lastUsed: "2016"},
+      {item: "Asset Management",                 level: "Beginner",     lastUsed: "2022"},
     ],
     "Work Areas": [
-      {item: "Business Analysis",                level: "Advanced",     lastUsed: "2011"},
-      {item: "Systems Analysis",                 level: "Intermediate", lastUsed: "2016"},
+      {item: "Business Analysis",                level: "Advanced",     lastUsed: "2022"},
+      {item: "Systems Analysis",                 level: "Intermediate", lastUsed: "2022"},
       {item: "Risk Analysis",                    level: "Intermediate", lastUsed: "2016"},
       {item: "Usability",                        level: "Intermediate", lastUsed: "2011"},
       {item: "User Interface Design",            level: "Intermediate", lastUsed: "2022"},
@@ -454,9 +467,9 @@ const resumeObject = {
       {item: "Data Integration",                 level: "Intermediate", lastUsed: "2009"},
       {item: "Data Conversion",                  level: "Intermediate", lastUsed: "2016"},
       {item: "Systems Interface Design",         level: "Intermediate", lastUsed: "2009"},
-      {item: "Code Refactoring",                 level: "Intermediate", lastUsed: "2014"},
+      {item: "Code Refactoring",                 level: "Intermediate", lastUsed: "2022"},
       {item: "Error Correction",                 level: "Advanced",     lastUsed: "2022"},
-      {item: "Estimation",                       level: "Advanced",     lastUsed: "2016"},
+      {item: "Estimation",                       level: "Advanced",     lastUsed: "2022"},
       {item: "Performance Tuning",               level: "Intermediate", lastUsed: "2016"},
       {item: "Technical Advisor",                level: "Intermediate", lastUsed: "2010"},
       {item: "Project handover",                 level: "Intermediate", lastUsed: "2010"},
@@ -491,7 +504,7 @@ const resumeObject = {
           {item: "Creating & finding Test Data", level: "Advanced",     lastUsed: "2016"},
           {item: "Test Plan",                    level: "Intermediate", lastUsed: "2016"},
           {item: "Unit Testing",                 level: "Intermediate", lastUsed: "2022"},
-          {item: "Functional Testing",           level: "Intermediate", lastUsed: "2016"},
+          {item: "Functional Testing",           level: "Intermediate", lastUsed: "2022"},
           {item: "Smoke Testing",                level: "Intermediate", lastUsed: "2016"},
           {item: "Integration Testing",          level: "Intermediate", lastUsed: "2010"},
           {item: "Performance Testing",          level: "Intermediate", lastUsed: "2016"},
@@ -517,6 +530,8 @@ const resumeObject = {
           {item: "MapObjects",                   level: "Beginner",     lastUsed: "2000"},
         ],
       },
+      {item: "SAP Crystal Reports",              level: "Beginner",     lastUsed: "2022"},
+      {item: "SimCorp Dimension",                level: "Beginner",     lastUsed: "2022"},
     ],
   },
   svg: {
