@@ -141,8 +141,8 @@ const resumeObject = {
           results: {
             include: [
                        "Created compact diagrams to reflect dataflow",
-//                       "Made recommandations to accomodate changes to incomming data",
-                       "Suggested solutions to accomodate changes to incomming data"
+//                       "Made recommandations to accommodate changes to incoming data",
+                       "Suggested solutions to accommodate changes to incoming data"
                      ],
           },
         },
