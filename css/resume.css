@@ -38,6 +38,13 @@
   --link-color-hover: #1976d2;
 }
 
+.rainbow {
+  background-image: linear-gradient(to right, #f92342, #ffa000, #ffd54f, #99e227, #64b5f6, #1976d2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  color: transparent;
+}
 
 /* https://code-boxx.com/full-screen-css-loading-spinner/ */
 #splash {

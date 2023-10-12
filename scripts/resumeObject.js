@@ -197,9 +197,11 @@ const resumeObject = {
                        "Created a Java project based on solutions to <a href=\"https://adventofcode.com\" target=\"_blank\" rel=\"noopener noreferrer\">advent of code</a>",
                        "Wrote user scripts in vanilla JavaScript for use on <a href=\"https://stackoverflow.com\" target=\"_blank\" rel=\"noopener noreferrer\">Stack Overflow</a>",
                      ],
-            includeComment: "Advent of Code was implemented during March - June 2022",
-            extra: ["Designed and implemented THIS data-driven résumé"],
-            extraComment: "THIS résumé was implemented in late April - early May 2022"
+            extra: ["Designed and implemented <b class=rainbow>this</b> data-driven résumé"],
+            comments: [
+                        "Advent of Code was implemented during March - June 2022",
+                        "This résumé was implemented in late April - early May 2022"
+                      ]
           },
         },
       ],
