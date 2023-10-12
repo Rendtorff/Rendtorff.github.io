@@ -132,6 +132,7 @@ const resumeObject = {
     {
       onePage: true,
       years: "2023-2023",
+      monthYears: "June 2023 - August 2023",
       title: "External Consultant as Systems Developer",
       company: "Banedanmark",
       projects: [
@@ -151,8 +152,9 @@ const resumeObject = {
     {
       onePage: true,
       years: "2022-2022",
+      monthYears: "August 2022 - December 2022",
       title: "External Consultant as Systems Developer",
-      company: "Nordea",
+      company: "Nordea - Asset Management",
       projects: [
         {
           onePage: true,
@@ -170,6 +172,7 @@ const resumeObject = {
     {
       onePage: true,
       years: "2016-2022",
+      monthYears: "July 2016 - July 2022",
       title: "Freelancing & Knowledge Acquisition",
       projects: [
         {
@@ -187,12 +190,16 @@ const resumeObject = {
         {
           onePage: true,
 		      years: "2020-2022",
+          monthYears: "January 2020 - July 2022",
           title: "Small Personal Projects",
           results: {
             include: [
                        "Created a Java project based on solutions to <a href=\"https://adventofcode.com\" target=\"_blank\" rel=\"noopener noreferrer\">advent of code</a>",
                        "Wrote user scripts in vanilla JavaScript for use on <a href=\"https://stackoverflow.com\" target=\"_blank\" rel=\"noopener noreferrer\">Stack Overflow</a>",
                      ],
+            includeComment: "Advent of Code was implemented during March - June 2022",
+            extra: ["Designed and implemented THIS data-driven résumé"],
+            extraComment: "THIS résumé was implemented in late April - early May 2022"
           },
         },
       ],
@@ -200,8 +207,9 @@ const resumeObject = {
     {
       onePage: true,
       years: "2012-2016",
+      monthYears: "August 2012 - June 2016",
       title: "External Consultant as Systems Developer",
-      company: "Nordea",
+      company: "Nordea - Markets",
       projects: [
         {
           onePage: true,
@@ -215,7 +223,7 @@ const resumeObject = {
                      ],
             extra: [
                      "Changed procedures to accommodate Nordea IT standards",
-                     "Maintained system source integrety when migrating to new environment",
+                     "Maintained system source integrity when migrating to new environment",
                    ],
           },
         },
@@ -223,6 +231,7 @@ const resumeObject = {
     },
     {
       years: "2011-2011",
+      monthYears: "July 2011 - November 2011",
       title: "Consultant of IT and Processes",
       company: "SEB Pension",
       projects: [
@@ -241,10 +250,12 @@ const resumeObject = {
     {
       onePage: true,
       years: "1998-2011",
+      monthYears: "May 1998 - June 2011",
       company: "Rambøll Informatik",
       projects: [
         {
           years: "2011-2011",
+          monthYears: "April 2011 - June 2011",
           name: ".NET based system for Arbejdstilsynet",
           title: "Systems Developer",
           results: {
@@ -256,6 +267,7 @@ const resumeObject = {
         {
           onePage: true,
           years: "2010-2011",
+          monthYears: "April 2010 - March 2011",
           name: "Oracle based student administrative system for UNI-C",
           title: "Technical Site Coordinator",
           results: {
@@ -269,6 +281,7 @@ const resumeObject = {
         },
         {
           years: "2009-2010",
+          monthYears: "September 2009 - March 2010",
           name: "Oracle based student administrative system for UNI-C",
           title: "Systems Developer",
           results: {
@@ -281,6 +294,7 @@ const resumeObject = {
         },
         {
           years: "2009-2009",
+          monthYears: "May 2009 - August 2009",
           name: "Mærsk Electronic Product Catalogue",
           title: "Systems Expert",
           results: {
@@ -292,6 +306,7 @@ const resumeObject = {
         },
         {
           years: "2000-2009",
+          monthYears: "February 2000 - April 2009",
           name: "Mærsk Electronic Product Catalogue",
           title: "Systems Developer",
           results: {
@@ -310,6 +325,7 @@ const resumeObject = {
         },
         {
           years: "1999-2000",
+          monthYears: "June 1999 - January 2000",
           name: "Standalone Windows GIS application",
           title: "Developer",
           results: {
@@ -323,6 +339,7 @@ const resumeObject = {
         },
         {
           years: "1998-1999",
+          monthYears: "May 1998 - May 1999",
           name: "Electronic product catalogue for Louis Poulsen",
           title: "Developer",
           results: {
