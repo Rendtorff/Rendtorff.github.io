@@ -1,0 +1,75 @@
+{
+  "language": "da-DK",
+  "menu": {
+    "aboutMe": "Om mig",
+    "list": "Kompetenceliste",
+    "onePage": "Enkeltsidet levnedsbeskrivelse",
+    "extended": "Udvidet levnedsbeskrivelse",
+    "otherlanguage": "English",
+    "consult": "Konsulenthuse",
+    "confetti": {
+      "title": "Konfetti",
+      "toggle": "Slå konfetti til/fra"
+    },
+    "theme": {
+      "title": "Lys/Mørk",
+      "toggle": "Skift mellem lyst/mørkt tema"
+    }
+  },
+  "about": {
+    "personality": "Personlighed",
+    "passions": "Interesser",
+    "goals": "Mål",
+    "strengthsWeak": "Styrker og svagheder"
+  },
+  "list": {
+    "projectMethods": "Projektlivscyklus metoder",
+    "projectTools": "Projektlivscyklus værktøjer",
+    "languages": "Programmeringssprog",
+    "developmentTools": "Udviklingsværtøjer",
+    "libraries": "Biblioteker / Rammeværktøjer",
+    "textFormatting": "Tekst formatting",
+    "os": "Operativsystemer",
+    "workstationTools": "Værktøjer på arbejdscomputeren",
+    "dbms": "Database Management Systemer",
+    "industry": "Industriområder",
+    "workAreas": "Arbejdsområder",
+    "other": "Andre"
+  },
+  "levels": {
+    "beginner": "Begynder",
+    "intermediate": "Mellemniveau",
+    "advanced": "Erfaren"
+  },
+  "resume": {
+    "technologies": "Teknologier",
+    "tools": "Værktøjer",
+    "education": "Uddannelse",
+    "certificates": "Certifikater",
+    "languages": "Sprog",
+    "hobbies": "Hobbyer",
+    "experience": "Erfaring",
+    "fromPlace" : "fra",
+    "project": "Projekt",
+    "projectsSummary": "Opsummering af projekter"
+  },
+  "consult": {
+    "printGuide": "Gem siden som .pdf",
+    "basics": "Grundlæggende",
+    "title": "Stillingsbetegnelse",
+    "started": "Begyndte i",
+    "roles": "Roller",
+    "competences": "Spidskompetencer",
+    "focus": "Fokusområder",
+    "businessAreas": "Forretningsområder. FIXME! Huh?!?",
+    "introduction": "Introduktion",
+    "skillsList": "Kompetenceliste",
+    "skills": {
+      "name": "Navn",
+      "level": "Niveau",
+      "lastUsed": "Sidst brugt",
+      "yearsUsed": "Antal år"
+    },
+    "outOf": "ud af"
+  }
+}

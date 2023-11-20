@@ -1,0 +1,164 @@
+{
+  "basics": {
+    "title": "Java & Oracle PL/SQL Systems Developer"
+  },
+  "roles": ["Systems Developer", "Scrum Master", "Product Owner"],
+  "competences": ["Databases", "Java Development", "Agile methodologies & development"],
+  "focus": ["Business Analysis", "Collaboration across stakeholders", "User Experience", "Systems Analysis", "Systems & Database Development"],
+  "introduction": {
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "I'm an experienced Oracle PL/SQL Developer that is also proficient in Java development. I'm versatile and not afraid to try out new things, for example Python."
+        },
+        {
+          "type": "paragraph",
+          "content": "I work persistently towards the end goal. I'm comfortable with all development models, like waterfall and/or agile. I can take on any part of the project cycle, from the early stages of defining & specifying details to the final test. I also find joy in maintaining an existing system."
+        },
+        {
+          "type": "paragraph",
+          "content": "I find it crucial to understand what stakeholders need and want. I'm happy to help them find new options in both existing and new systems. For this reason, I can easily collaborate between business and developers, like a Product Owner. I always think in terms of usability and user experience, and I will ensure that any solution work as intended."
+        },
+        {
+          "type": "paragraph",
+          "content": "My full and updated résumé can be found on <a href=\"https://rikke.rendtorff.dk\" target=\"_blank\" rel=\"noopener noreferrer\">rikke.rendtorff.dk</a>."
+        }
+      ]
+  },
+  "experience": {
+    "exp202203" : {
+      "title": "Systems Developer",
+      "projects": {
+        "pro202203": {
+          "name": "Showcase implementation & documentation on small Java project",
+          "results": {
+            "include": [
+                          "Created solutions for problems and implemented them",
+                          "Documented source code & explained solutions to problems",
+                          "Showcased two different build tools & building without tools using Bash and DOS scripting",
+                          "Created full user guide of how to run and use the project"
+                       ]
+          }
+        }
+      }
+    },
+    "exp202204" : {
+      "title": "Front-end Developer",
+      "projects": {
+        "pro202203": {
+          "name": "Online résumé at <a href=\"https://rikke.rendtorff.dk\" target=\"_blank\" rel=\"noopener noreferrer\">rikke.rendtorff.dk</a>",
+          "results": {
+            "include": ["Designed & implemented a data-driven résumé based on JSON"]
+          }
+        }
+      }
+    },
+    "exp201802" : {
+      "company": "Undisclosed",
+      "title": "Back-end Developer",
+      "projects": {
+        "pro201802": {
+          "name": "Various standalone subprojects"
+        }
+      }
+    },
+    "exp199804" : {
+      "title": "Systems Developer & other roles",
+      "projects": {
+        "pro199804": {
+          "results": {
+            "summary" : [
+                {
+                  "role": "Systems Developer",
+                  "project": "on a .NET based system for Arbejdstilsynet"
+                },
+                {
+                  "role": "Technical Site Coordinator",
+                  "project": "in India on an Oracle based student administrative system for UNI-C"
+                },
+                {
+                  "role": "Systems Expert",
+                  "project": "handing over a large Oracle based Electronic Product Catalogue to another vendor"
+                },
+                {
+                  "role": "Systems Developer",
+                  "project": "on an Oracle based Electronic Product Catalogue"
+                },
+                {
+                  "role": "Developer",
+                  "project": "on a standalone Windows GIS application"
+                },
+                {
+                  "role": "Developer",
+                  "project": "on an Informix based Electronic Product Catalogue"
+                }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "printGuide": {
+    "notes": {
+      "header": "Please note",
+      "item": {
+        "content": [
+          "This section of the page will <b>not</b> appear in the .pdf",
+          "The .pdf will have the site's \"Light\" theme",
+          "This page gets regular updates. The .pdf may be outdated as soon as it's made"
+        ]
+      }
+    },
+    "guide": {
+      "1": {
+        "items": {
+          "rightClick": {
+            "content": "<b>Right-click</b> anywhere on the page and pick \"<b>Print</b>\" from the menu."
+          },
+          "image": {
+            "src": "/images/pdf/english/1-print.png"
+          },
+          "result": {
+            "content": "A print preview with settings will appear."
+          }
+        }
+      },
+      "2": {
+        "items": {
+          "saveAsPDF": {
+            "content": "In the \"<b>Printer</b>\" section pick \"<b>Save as PDF</b>\""
+          },
+          "image": {
+            "src": "/images/pdf/english/2-saveAsPDF.png"
+          }
+        }
+      },
+      "3": {
+        "items": {
+          "noticeMargins": {
+            "content": "Notice that the print preview has added text to the margins."
+          },
+          "moreSettings": {
+            "content": "Remove it by first pressing \"<b>More settings</b>\""
+          },
+          "image": {
+            "src": "/images/pdf/english/3-moreSettings.png"
+          }
+        }
+      },
+      "4": {
+        "items": {
+          "headersFooters": {
+            "content": "Scroll down to \"<b>Headers and footers</b>\". Setting it to <b>OFF</b> will remove the added text."
+          },
+          "image": {
+            "src": "/images/pdf/english/4-headersFooters.png"
+          },
+          "save": {
+            "content": "Press \"<b>Save</b>\" and pick the name & location of the .pdf file"
+          }
+        }
+      }
+    }
+  }
+}

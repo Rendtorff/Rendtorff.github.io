@@ -1,0 +1,413 @@
+{
+  "header": {
+    "document": "levnedsbeskrivelse",
+    "title": "Systemudvikler",
+    "area": "København"
+  },
+  "footer": "Ophavsret © REPLACE. Alle rettigheder forbeholdt.",
+  "about": {
+    "personality": {
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "Jeg er en naturlig udadvendt person. Jeg er nysgerrig og ikke bange for at spørge om ting. Jeg har det godt med både at arbejde sammen med andre og at arbejde helt alene."
+        },
+        {
+          "type": "paragraph",
+          "content": "Jeg kan godt lide at hjælpe andre. Jeg har skrevet svar på <a href=\"https://stackoverflow.com\" target=\"_blank\" rel=\"noopener noreferrer\">Stack Overflow</a> og jeg tilslutter mig ofte en server på <a href=\"https://discord.com\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, hvor jeg hjælper andre med spørgsmål om programmering. Jeg har også givet lektiehjælp i matematik i den virkelige verden. Jeg er blevet fortalt at jeg er tålmodig underviser og god til at forklare ting."
+        }
+      ]
+    },
+    "passions": {
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "Jeg er en ildsjæl omkring at tage ansvar for mine opgaver. Jeg begynder sjældent på at implementere en løsning, for jeg helt forstår hvad der skal laves. Jeg er vedholdende og holder ikke op før opgaven er afklaret, implementeret, testet, leveret og <i>verificeret</i>. Hvis det kræver administrative opgaver, såsom at få adgang til en server eller lignende, så anser jeg det som en del af opgaven."
+        },
+        {
+          "type": "paragraph",
+          "content": "Jeg kan lide processen fra start til slut, som fortrinsvis inkluderer:"
+        },
+        {
+          "type": "list",
+          "content": [
+            "Forstå forretningens behov",
+            "Tale med brugere og andre interessenter",
+            "Samarbejde om at finde muligheder og løsninger til gavn for alle",
+            "Identificering og rettelse af fejl",
+            "Levering og efterbehandling"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "Selvom det at skrive dokumentation ikke hører til min yndlingsdel af softwareudvikling, finder jeg det lige så vigtigt som enhver anden del. Det omfatter både brugervejledninger til slutbrugere og dokumentation om, hvordan man for eksempel bruger et bibliotek. Jeg mener, at den energi, der bruges på at skabe software, er spildt, hvis ingen forstår, hvordan man bruger det."
+        }
+      ]
+    },
+    "goals": {
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "Mit overordnede mål er at nyde processen og have det godt."
+        },
+        {
+          "type": "paragraph",
+          "content": "Jeg har projektmål. Selve projektet bliver min \"mission\", og jeg gør alt hvad jeg kan for at nå projektets mål."
+        },
+        {
+          "type": "paragraph",
+          "content": "Jeg har ingen præference mellem at vedligeholde et eksisterende system eller være med til at skabe noget nyt. Af erfaring ved jeg at vedligeholdelse af allerede eksisterende systemer ofte kræver at der tilføjes ny funktionalitet. Jeg får ligeså stor glæde af at rette fejl som at lave noget helt nyt."
+        }
+      ]
+    },
+    "strengthsWeak": {
+      "side": "right",
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "Mine styrker er også mine svagheder. Jeg kan være perfektionistisk, som indimellem er fjenden af \"godt nok\". Det kan også være tidsbesparende, da det samme funktionalitet ikke skal rettes for fejl mange gange. Jeg læner mere til at \"gøre det rigtigt første gang\" end \"få et forspring og send det i produktion nu\"."
+        },
+        {
+          "type": "paragraph",
+          "content": "Jeg vil gerne vide og huske alt, men jeg ved at det ikke kan lade sig gøre. Jeg prøver at finde balancen ved at vide nok til gøre mig i stand til både at være produktiv men også hvordan jeg finder mere information. Det betyder at jeg ofte er lidt uklar om detaljerne, og jeg bliver nødt til lige at foretage et hurtige opslag i dokumentationen."
+        },
+        {
+          "type": "paragraph",
+          "content": "Jeg tilpasser mig forandring. Hvis jeg skal lære et nyt programmeringssprog, et nyt værktøj eller ændre en process, ser jeg det som en mulighed for at lære noget nyt. Jeg synes dog det er mere motiverende at forstå hvorfor noget skal ændres, selvom jeg synes det er sjovt at afprøve ny teknologi."
+        }
+      ]
+    }
+  },
+  "hobbies": {
+    "include": ["Gåder", "Træ og sløjd"],
+    "extra": ["Indretning og renovering", "Science Fiction film"]
+  },
+  "languages": [
+    {
+      "language": "Dansk",
+      "level": "Modersmål"
+    },
+    {
+      "language": "Engelsk",
+      "level": "Flydende"
+    }
+  ],
+  "education": {
+    "edu2009": {
+      "name": "BSc. i Datalogi og Matematik",
+      "place": "Datalogist Institut, Københavns Universitet (<a href=\"https://di.ku.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">DIKU</a>)"
+    }
+  },
+  "experience": {
+    "exp202306": {
+      "title": "Ekstern konsulent som systemudvikler",
+      "projects": {
+        "pro202306": {
+          "name": "Analyse af datastrøm gennem en Oracle database",
+          "results": {
+            "include": [
+                       "Lavede diagrammer der viste datastrømmen",
+                       "Foreslog ændringer af systemet for at imødegå ændringer af indkommende data"
+                     ]
+          }
+        }
+      }
+    },
+    "exp202208": {
+      "title": "Ekstern konsulent som systemudvikler",
+      "projects": {
+        "pro202208": {
+          "name": "Oracle PL/SQL-baseret rapporteringssystem med underliggende data fra en SimCorp Dimension database",
+          "results": {
+            "include": [
+                       "Ændrede rapporter i overensstemmelse med nye forretningskrav",
+                       "Dokumenterede processer og løsninger i Confluence",
+                       "Forbedrede køretider på store og forretningstunge søgninger"
+                     ]
+          }
+        }
+      }
+    },
+    "exp201608": {
+      "title": "Løsarbejde og erhvervelse af viden",
+      "projects": {
+        "pro201609": {
+          "title": "Erhvervelse af viden",
+          "results": {
+            "include": [
+                       "Java, Javascript, Regex, lidt Python og shell scripting",
+                       "Data strukturer og algoritmer",
+                       "Matematisk analyse og linær algebra"
+                     ],
+            "extra": ["Udførte med success \"docker run hello-world\" på en Linux Mint :)"]
+          }
+        },
+        "pro202005": {
+          "title": "Små personlige projekter",
+          "results": {
+            "include": [
+                       "Lavede et Java projekt baseret på løninger til <a href=\"https://adventofcode.com\" target=\"_blank\" rel=\"noopener noreferrer\">advent of code</a>",
+                       "Skrev \"user scripts\" i ren JavaScript til brug på <a href=\"https://stackoverflow.com\" target=\"_blank\" rel=\"noopener noreferrer\">Stack Overflow</a>"
+                     ],
+            "extra": ["Designede og implementerede <b class=rainbow>denne</b> data-drevet levnedsbeskrivelse"]
+          }
+        }
+      }
+    },
+    "exp201208": {
+      "title": "Ekstern konsulent som systemudvikler",
+      "projects": {
+        "pro201208": {
+          "name": "Oracle-baseret system med flere grænseflader",
+          "results": {
+            "include": [
+                       "Holdt systemet opdateret med skiftende grænsefladesystemer",
+                       "Forbedrede løbende systemet til nye forretningskrav",
+                       "Etablerede nye metoder og procedurer til udvikling og udgivelse",
+                       "Lavede brugervejledninger og underviste i Git"
+                     ],
+            "extra": [
+                     "Ændrede procedurer i henhold til Nordeas IT-standarder",
+                     "Opretholdt systemkildeintegritet ved migrering til nyt miljø"
+                   ]
+          }
+        }
+      }
+    },
+    "exp201107": {
+      "title": "Konsulent for IT og processer",
+      "projects": {
+        "pro201107": {
+          "name": "Webportal og slutbrugersystem baseret på Oracle- og Java-komponenter",
+          "results": {
+            "include": [
+                       "Evaluerede nuværende processer",
+                       "Definerede områder til forbedring",
+                       "Introducerede nye overordnede processer"
+                     ]
+          }
+        }
+      }
+    },
+    "exp199805": {
+      "projects": {
+        "pro201104": {
+          "name": ".NET-baseret system for Arbejdstilsynet",
+          "title": "Systemudvikler",
+          "results": {
+            "include": [
+                       "Udførte regressionstest"
+                     ]
+          }
+        },
+        "pro201004": {
+          "name": "Oracle-baseret studieadministrationssystem for UNI-C",
+          "title": "Teknisk sitekoordinator",
+          "results": {
+            "include": [
+                       "Vejledte de indiske teams om projektforløb og tekniske udfordringer",
+                       "Definerede kodestandard og underviste i \"best practice\" metoder",
+                       "Udførte vurdering af løsninger og kildekode",
+                       "Evaluerede præstationer på den indiske side"
+                     ]
+          }
+        },
+        "pro200909": {
+          "name": "Oracle-baseret studieadministrationssystem for UNI-C",
+          "title": "Systemudvikler",
+          "results": {
+            "include": [
+                       "Erhvervede viden fra tidligere leverandør",
+                       "Designede brugergrænseflade og modellerede forretningslogik",
+                       "Overdragede viden til L&T Infotech i Indien til videreudvikling"
+                     ]
+          }
+        },
+        "pro200905": {
+          "name": "Mærsk Elektronisk Produkt Katalog",
+          "title": "Systemekspert",
+          "results": {
+            "include": [
+                       "Overdragede med succes et stort Oracle PL/SQL system til Tata Consultancy Services hos Mærsk i London over en periode på 3 måneder",
+                       "Vedligeholdt systemet under overgangen til det indiske hold"
+                     ]
+          }
+        },
+        "pro200002": {
+          "name": "Mærsk Elektronisk Produkt Katalog",
+          "title": "Systemudvikler",
+          "results": {
+            "include": [
+                       "Udviklede og vedligeholdt løbende et stort Oracle PL/SQL system",
+                       "Optimerede SQL-forespørgsler",
+                       "Rådgav kunde om brugergrænseflader og tekniske muligheder",
+                       "Uddannede kunden i brug af systemet"
+                     ],
+            "extra": [
+                     "På 24 timers opkaldssupport",
+                     "Administrerede programrettelser og udgivelser",
+                     "Udviklede webbrugergrænseflader ved hjælp af Oracles PL/SQL indbyggede pakker"
+                   ]
+          }
+        },
+        "pro199906": {
+          "name": "GIS skrivebords-applikation til Windows",
+          "title": "Udvikler",
+          "results": {
+            "include": [
+                       "Udviklede applikationen ved brug af esri GIS og Visual Basic 6.0",
+                       "Muliggjorde ændring af polygoner og fastgørelse af punkter",
+                       "Sikring af grænseflade med en stor database for geografiske data",
+                       "Lavede et API for oprettelse af billeder til upload på en webserver"
+                     ]
+          }
+        },
+        "pro199805": {
+          "name": "Elektronisk produktkatalog for Louis Poulsen",
+          "title": "Udvikler",
+          "results": {
+            "include": [
+                       "Oprettede og indsatte testdata i en Informix database",
+                       "Udviklede web-brugergrænseflader"
+                     ]
+          }
+        }
+      }
+    }
+  },
+  "list": {
+    "projectMethods": {
+      "content": {
+        "ite03": {"name": "Traditionel vandfaldsmodel"}
+      }
+    },
+    "projectTools": {
+      "content": {
+        "ite06": {"name": "Lokal Sharepoint"},
+        "ite07": {"name": "Proprietære værktøjer"}
+      }
+    },
+    "developmentTools": {
+      "content": {
+        "ite02": {
+          "group": "Oracle database værktøjer"
+        },
+        "ite04": {"name": "Git \"kommando linje\""}
+      }
+    },
+    "workstationTools": {
+      "content": {
+        "ite10": {"name": "VPN (Virtuelt privat netværk)"}
+      }
+    },
+    "industry": {
+      "content": {
+        "ite01": {
+          "group": "Transport og Logistik",
+          "items": {
+            "item0101": {"name": "Forsendelse"},
+            "item0102": {"name": "Jernbane"}
+          }
+        },
+        "ite02": {"name": "Pension"},
+        "ite03": {"name": "Uddannelse"},
+        "ite04": {
+          "group": "Finans",
+          "items": {
+            "item0401": {"name": "Kapitalmarkeder"},
+            "item0402": {"name": "Modpartsrisiko"},
+            "item0403": {"name": "Administration af aktiver"}
+          }
+        }
+      }
+    },
+    "workAreas": {
+      "content": {
+        "ite01": {
+          "group": "Brugeroplevelse",
+          "items": {
+            "item0101": {"name": "Brugervenlighed"},
+            "item0102": {"name": "Design af brugergrænseflader"}
+          }
+        },
+        "ite02": {
+          "group": "Analyse",
+          "items": {
+            "item0201": {"name": "Forretningsanalyse"},
+            "item0202": {"name": "Systemanalyse"},
+            "item0203": {"name": "Analyse af data"},
+            "item0204": {"name": "Riskikoanalyse"}
+          }
+        },
+        "ite03": {
+          "group": "Systemdesign",
+          "items": {
+            "item0301": {"name": "Design af programmer"},
+            "item0302": {"name": "Design af system grænseflader"}
+          }
+        },
+        "ite04": {
+          "group": "Systemudvikling",
+          "items": {
+            "item0401": {"name": "Backend"},
+            "item0402": {"name": "Frontend"},
+            "item0403": {"name": "Estimering"},
+            "item0404": {"name": "Forbedring af ydeevne"},
+            "item0405": {"name": "Fejlrettelse"},
+            "item0406": {"name": "Omskrivning af kildekode"},
+            "item0407": {"name": "Datamodellering"},
+            "item0408": {"name": "Dataintegration"},
+            "item0409": {"name": "Dataconvertering"}
+          }
+        },
+        "ite05": {
+          "group": "Ledelse",
+          "items": {
+            "item0501": {"name": "Teknisk rådgivning"},
+            "item0502": {"name": "Projektledelse"},
+            "item0503": {"name": "Bestyrer af fejlhåndtering"},
+            "item0504": {"name": "Bestyrer af kodebyg"},
+            "item0505": {"name": "Bestyrer af konfigurationsstyring"},
+            "item0506": {"name": "Procesudvikling"},
+            "item0507": {"name": "Evaluering af arbejdsgange"},
+            "item0508": {"name": "Kvalitetssikring"},
+            "item0509": {"name": "Projektoverdragelse"},
+            "item0510": {"name": "Udlicitering "},
+            "item0511": {"name": "Koordinering"}
+          }
+        },
+        "ite06": {
+          "group": "Dokumentation",
+          "items": {
+            "item0601": {"name": "Kravspecifikation"},
+            "item0602": {"name": "UML og Brugerbeskrivelsesmodellering"},
+            "item0603": {"name": "Ikke-functionelle Krav"},
+            "item0604": {"name": "Detaljeret forretningslogik"},
+            "item0605": {"name": "System arkitektur"},
+            "item0606": {"name": "Modellering af objektrelationer"},
+            "item0607": {"name": "Dataflowdiagrammer"},
+            "item0608": {"name": "Testrapporter"},
+            "item0609": {"name": "Nøjagtig fejlrapportering"},
+            "item0610": {"name": "Udgivelsesnoter"},
+            "item0611": {"name": "Brugervejledninger"}
+          }
+        },
+        "ite07": {
+          "group": "Test",
+          "items": {
+            "item0701": {"name": "Oprettelse af tests"},
+            "item0702": {"name": "Oprettelse og søgning af testdata"},
+            "item0703": {"name": "Test plan"},
+            "item0704": {"name": "Enhedstest"},
+            "item0705": {"name": "Funktionstest"},
+            "item0706": {"name": "Røgtest"},
+            "item0707": {"name": "Integrationstest"},
+            "item0708": {"name": "Test af ydeevne"},
+            "item0709": {"name": "Stresstest"},
+            "item0710": {"name": "Test af tilbagegang"}
+          }
+        }
+      }
+    }
+  }
+}

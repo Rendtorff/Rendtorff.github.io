@@ -8,94 +8,138 @@
 
     <link rel="stylesheet" href="css/resume.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preload" as="image" href="images/stars/favicon.png">
+    <link rel="preload" as="image" href="images/stars/favicon-gray.png">
 
-    <script type="text/javascript" src="scripts/resumeObject.js"></script>
+    <script type="text/javascript" src="data/resumeObject.base.js"></script>
+    <script type="text/javascript" src="data/resumeConsultObject.base.js"></script>
     <script type="text/javascript" src="scripts/resume.js"></script>
 
     <title>Rikke Rendtorff - résumé ..loading</title>
   </head>
 
   <body>
+    <div id="forShadow" style="display: none"></div>
 
-    <header>
-      <nav>
-        <div class="halfButton">
-          <button id="aboutButton">About Me</button>
-        </div>
-        <div class="fullButton">
-          <button id="listButton">Non-exhaustive List</button>
-        </div>
-        <div class="fullButton">
-          <button id="onePageButton" class="active">One Page Résumé</button>
-        </div>
-        <div class="fullButton">
-          <button id="extendedButton">Extended Résumé</button>
-        </div>
-        <div class="halfButton">
-          <button id="confettiButton"></button>
-          <button id="lightDarkButton"></button>
-        </div>
-      </nav>
-    </header>
+    <div id="activeLanguagePage">
+      <div>
 
-    <noscript>
-      <!-- https://stackoverflow.com/a/3926750 -->
-      <style type="text/css">
-        #content {
-          display:none;
-        }
-        .noscriptmsg {
-          font-size: 48px;
-          padding: 2%;
-          text-align: center;
-          background-color: white;
-        }
-      </style>
-      <div class="noscriptmsg">
-        <p>You don't have JavaScript enabled.</p>
-        <p>Good luck with that ;)</p>
+        <header id="navigation">
+          <nav>
+            <div class="sideButton">
+              <button id="consultButton"></button>
+            </div>
+            <div class="sideButton">
+              <button id="aboutButton"></button>
+            </div>
+            <div class="fullButton">
+              <button id="listButton"></button>
+            </div>
+            <div class="fullButton">
+              <button id="onePageButton" class="active"></button>
+            </div>
+            <div class="fullButton">
+              <button id="extendedButton"></button>
+            </div>
+            <div class="sideButton">
+              <button id="languageButton"></button>
+            </div>
+            <div class="sideButton">
+              <button class="halfButton" id="confettiButton"></button>
+              <button class="halfButton"id="lightDarkButton"></button>
+            </div>
+          </nav>
+        </header>
+
+        <noscript id="goodluck">
+          <!-- https://stackoverflow.com/a/3926750 -->
+          <style type="text/css">
+            header, #content, #splash {
+              display: none;
+            }
+            .noscriptmsg {
+              font-size: 48px;
+              padding: 2%;
+              text-align: center;
+              background-color: white;
+              margin-top: 1%
+            }
+          </style>
+          <div class="noscriptmsg">
+            <p>You don't have JavaScript enabled.</p>
+            <p>Good luck with that ;)</p>
+          </div>
+        </noscript>
+
+        <div id="splash" class="show">
+          <img src="images/splash.gif"/>
+        </div>
+
+        <div id="noticeBackground" style="display: none">
+          <div id="notice">
+            <div>
+              <h1>Wooooops!</h1>
+              <img src="/images/surprise.png" alt="Image of surprise emoji"/>
+              <span id="noticeText"></span>
+            </div>
+            <span id="closeNotice" title="Close notice">&times;</span>
+          </div>
+        </div>
+
+        <div id="content">
+          <div id="top">
+            <div id="header"></div>
+            <div id="cloud"></div>
+          </div>
+
+          <div id="resume" class="row">
+            <div id="leftResume" class="column leftOffCenter">
+              <div id="technologies"></div>
+              <div id="tools"></div>
+              <div id="education"></div>
+              <div id="certificates"></div>
+              <div id="languages"></div>
+              <div id="hobbies"></div>
+            </div>
+            <div id="rightResume" class="column rightOffCenter">
+              <div id="experience"></div>
+            </div>
+          </div>
+
+          <div id="list" class="row" style= "display: none">
+            <div id="leftList" class="column leftCenter"></div>
+            <div id="rightList" class="column rightCenter"></div>
+          </div>
+
+          <div id="about" class="row" style= "display: none">
+            <div id="leftAbout" class="column leftCenter"></div>
+            <div id="rightAbout" class="column rightCenter"></div>
+          </div>
+
+          <div id="consultancies" style= "display: none">
+            <div id="printGuide"></div>
+            <div id="introduction"></div>
+            <div id="introLists"></div>
+            <div id="experienceConsult"></div>
+            <div id="skillsList"></div>
+          </div>
+
+        </div>
+
+        <div id="fourOfour" style="display: none">
+          <div><h1>Wooooops!</h1></div>
+          <img src="/images/surprise.png" alt="Image of surprise emoji"/>
+          <div>
+            <h2 id="fourOfourText"><h2>
+          </div>
+        </div>
+
+        <footer>
+          <hr /><p></p>
+        </footer>
+
       </div>
-    </noscript>
-
-    <div id="splash" class="show">
-      <img src="images/splash.gif"/>
     </div>
-
-    <div id="content">
-      <div id="top">
-        <div id="header"></div>
-        <div id="image"></div>
-      </div>
-
-      <div id="resume" class="row">
-        <div id="leftResume" class="column leftOffCenter">
-          <div id="technologies"></div>
-          <div id="tools"></div>
-          <div id="education"></div>
-          <div id="certificates"></div>
-          <div id="languages"></div>
-          <div id="hobbies"></div>
-        </div>
-        <div id="rightResume" class="column rightOffCenter">
-          <div id="experience"></div>
-        </div>
-      </div>
-
-      <div id="list" class="row" style= "display: none">
-        <div id="leftList" class="column leftCenter"></div>
-        <div id="rightList" class="column rightCenter"></div>
-      </div>
-
-      <div id="about" class="row" style= "display: none">
-        <div id="leftAbout" class="column leftCenter"></div>
-        <div id="rightAbout" class="column rightCenter"></div>
-      </div>
-
-    </div>
-
-    <footer>
-      <hr /><p></p>
-    </footer>
 
   </body>
 </html>

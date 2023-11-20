@@ -1,0 +1,164 @@
+{
+  "basics": {
+    "title": "Java og Oracle PL/SQL systemudvikler"
+  },
+  "roles": ["Systemudvikler", "Scrum Master", "Product Owner"],
+  "competences": ["Databaser", "Javaudvikling", "Agile metoder og udvikling"],
+  "focus": ["Forretningsanalyse", "Samarbejde mellem interessenter", "Brugeroplevelse", "Systemanalyse", "System- og database-udvikling"],
+  "introduction": {
+    "items": [
+      {
+        "type": "paragraph",
+        "content": "Jeg er en erfaren Oracle PL/SQL udvikler. Jeg har også erfaring med Java udvikling. Jeg er alsidig og sætter mig gerne ind i nye ting, f.eks Python."
+      },
+      {
+        "type": "paragraph",
+        "content": "Jeg arbejder vedholdende og målfast, og jeg finder mig godt tilrette under alle projektforløb, såsom vandfaldsmodellen og/eller agil udvikling. Jeg påtager mig alle typer opgaver fra kravspecifikation til test. Jeg arbejder også gerne med efterfølgende vedligeholdelse."
+      },
+      {
+        "type": "paragraph",
+        "content": "Jeg er god til at forstå, hvad forretningen/brugerne ønsker, og tænke nye muligheder for brugerne ind i både nye og eksisterende systemer. Jeg kan derfor nemt også arbejde som bindeled mellem forretningen og IT, såsom en Product Owner. Jeg indtænker usability i konkrete tekniske løsninger og er gerne med til at teste og sikre, at løsningerne virker efter hensigten."
+      },
+      {
+        "type": "paragraph",
+        "content": "Min fulde og opdaterede levnedbeskrivelse kan findes på <a href=\"https://rikke.rendtorff.dk\" target=\"_blank\" rel=\"noopener noreferrer\">rikke.rendtorff.dk</a>."
+      }
+    ]
+  },
+  "experience": {
+    "exp202203" : {
+      "title": "Systemudvikler",
+      "projects": {
+        "pro202203": {
+          "name": "Eksempel på implementering og dokumentation af lille Java projekt",
+          "results": {
+            "include": [
+                          "Fandt løsninger på problemer og implementede dem",
+                          "Dokumenterede kildekode og forklarede løsninger til problemerne",
+                          "Viste brug af 2 forskellige build værktøjer og byg af projektet uden værktøjer ved brug af Bash og DOS scripting",
+                          "Skrev en fuld brugervejledning om hvordan man kører og bruger projektet"
+                       ]
+          }
+        }
+      }
+    },
+    "exp202204" : {
+      "title": "Frontend udvikler",
+      "projects": {
+        "pro202203": {
+          "name": "Online levnedsbeskrivelse på <a href=\"https://rikke.rendtorff.dk\" target=\"_blank\" rel=\"noopener noreferrer\">rikke.rendtorff.dk</a>",
+          "results": {
+            "include": ["Designede og skabte en data-drevet levnedsbeskrivelse baseret på JSON"]
+          }
+        }
+      }
+    },
+    "exp201802" : {
+      "company": "Uoplyst",
+      "title": "Backend udvikler",
+      "projects": {
+        "pro201802": {
+          "name": "Forskellige isolerede underprojekter"
+        }
+      }
+    },
+    "exp199804" : {
+      "title": "Systemudvikler og andre roller",
+      "projects": {
+        "pro199804": {
+          "results": {
+            "summary" : [
+                {
+                  "role": "Systemudvikler",
+                  "project": "på et .NET-baseret system for Arbejdstilsynet"
+                },
+                {
+                  "role": "Teknisk sitekoordinator",
+                  "project": "i Indien på et Oracle-baseret uddannelsesadministrationssystem for UNI-C"
+                },
+                {
+                  "role": "Systemekspert",
+                  "project": "til overdragelse af et stort Oracle-baseret elektronisk produktkatalog til en anden leverandør"
+                },
+                {
+                  "role": "Systemudvikler",
+                  "project": "på et Oracle-baseret elektronisk produktkatalog"
+                },
+                {
+                  "role": "Udvikler",
+                  "project": "på en GIS skrivebords-applikation til Windows"
+                },
+                {
+                  "role": "Udvikler",
+                  "project": "på et Informix-baseret elektronisk produktkatalog"
+                }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "printGuide": {
+    "notes": {
+      "header": "Bemærk",
+      "item": {
+        "content": [
+          "Dette afsnit er <b>ikke</b> med på .pdf filen",
+          "Den resulterende .pdf fil vil få webstedets \"Lyse\" tema",
+          "Siden bliver løbende opdateret. Den resulterende .pdf fil kan være forældret, ligeså snart den er lavet"
+        ]
+      }
+    },
+    "guide": {
+      "1": {
+        "items": {
+          "rightClick": {
+            "content": "<b>Højreklik</b> hvor som helst på siden og vælg \"<b>Udskriv</b>\" fra menuen."
+          },
+          "image": {
+            "src": "/images/pdf/danish/1-print.png"
+          },
+          "result": {
+            "content": "Et eksempel på og indstillinger til udskriften vil blive vist."
+          }
+        }
+      },
+      "2": {
+        "items": {
+          "saveAsPDF": {
+            "content": "Under \"<b>Printer</b>\" vælg \"<b>Gem som PDF-fil</b>\""
+          },
+          "image": {
+            "src": "/images/pdf/danish/2-saveAsPDF.png"
+          }
+        }
+      },
+      "3": {
+        "items": {
+          "noticeMargins": {
+            "content": "Bemærk at eksemplet har tekst i margenerne."
+          },
+          "moreSettings": {
+            "content": "Fjern teksten ved først at trykke på \"<b>Flere indstillinger</b>\""
+          },
+          "image": {
+            "src": "/images/pdf/danish/3-moreSettings.png"
+          }
+        }
+      },
+      "4": {
+        "items": {
+          "headersFooters": {
+            "content": "Gå ned til \"<b>Sidehoveder og sidefødder</b>\". Margenteksten forsvinder ved at <b>fjerne fluebenet</b>."
+          },
+          "image": {
+            "src": "/images/pdf/danish/4-headersFooters.png"
+          },
+          "save": {
+            "content": "Tryk på \"<b>Gem</b>\" og vælg navnet og folderen på .pdf filen"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "language": "en-GB",
+  "menu": {
+    "aboutMe": "About Me",
+    "list": "List of Skills",
+    "onePage": "One Page Résumé",
+    "extended": "Extended Résumé",
+    "otherlanguage": "Dansk",
+    "consult": "Consultancies",
+    "confetti": {
+      "title": "Confetti",
+      "toggle": "Toggle Confetti on/off"
+    },
+    "theme": {
+      "title": "Light/Dark",
+      "toggle": "Toggle Light/Dark theme"
+    }
+  },
+  "about": {
+    "personality": "Personality",
+    "passions": "Passions",
+    "goals": "Goals",
+    "strengthsWeak": "Strengths and Weaknesses"
+  },
+  "list": {
+    "projectMethods": "Project Lifecycle Methods",
+    "projectTools": "Project Lifecycle Tools",
+    "languages": "Languages",
+    "developmentTools": "Development Tools",
+    "libraries": "Libraries / Frameworks",
+    "textFormatting": "Text Formatting",
+    "os": "Operating Systems",
+    "workstationTools": "Workstation Tools",
+    "dbms": "Database Management Systems",
+    "industry": "Areas of Industry",
+    "workAreas": "Work Areas",
+    "other": "Other"
+  },
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Experienced"
+  },
+  "resume": {
+    "technologies": "Technologies",
+    "tools": "Tools",
+    "education": "Education",
+    "certificates": "Certificates",
+    "languages": "Languages",
+    "hobbies": "Hobbies",
+    "experience": "Experience",
+    "fromPlace": "from",
+    "project": "Project",
+    "projectsSummary": "Projects summary"
+  },
+  "consult": {
+    "printGuide": "Save this page as a .pdf",
+    "basics": "Basics",
+    "title": "Job title",
+    "started": "Started in",
+    "roles": "Roles",
+    "competences": "Key Skills",
+    "focus": "Focus Areas",
+    "businessAreas": "Business Areas.  FIXME! Huh?!?",
+    "introduction": "Introduction",
+    "skillsList": "Skills List",
+    "skills": {
+      "name": "Name",
+      "level": "Level",
+      "lastUsed": "Last Used",
+      "yearsUsed": "Years Used"
+    },
+    "outOf": "out of"
+  }
+}

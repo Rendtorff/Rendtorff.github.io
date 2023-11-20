@@ -6,3 +6,4 @@
 # Do not make changes to image files
 *.gif          binary
 *.ico          binary
+*.png          binary

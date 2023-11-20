@@ -47,7 +47,8 @@
 }
 
 /* https://code-boxx.com/full-screen-css-loading-spinner/ */
-#splash {
+#splash,
+#noticeBackground {
   position: fixed;
   top: 0;
   left: 0;
@@ -56,6 +57,14 @@
   height: 100vh;
   background: var(--splash-background);
   transition: opacity 1000ms;
+
+}
+#splash {
+    opacity: 0;
+}
+#splash.show {
+  visibility: visible;
+  opacity: 1;
 }
 #splash img {
   position: absolute;
@@ -63,14 +72,43 @@
   left: 50%;
   transform: translate(-50%);
 }
-#splash {
-  opacity: 0;
-}
-#splash.show {
-  visibility: visible;
-  opacity: 1;
-}
 
+#notice {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 1.2vw 2vw;
+  background-color: var(--body-background);
+  border: 5px solid var(--content-border);
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+#notice img {
+  width: 80%
+}
+#notice span {
+  text-align: center;
+}
+#notice > div {
+  display: grid;
+  justify-items: center;
+}
+#closeNotice {
+  margin-left: 10px;
+  color: #e4e4e4;
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+  cursor: pointer;
+  align-self: baseline;
+}
+#closeNotice:hover {
+  color: black;
+}
 
 * {
   font-size: 99%;
@@ -98,16 +136,16 @@ nav {
 }
 
 nav div.fullButton {
-  width: 25%;
+  width: 20%;
 }
 
-nav div.halfButton {
-  width: 12.5%;
+nav div.sideButton {
+  width: 10%;
   display: flex;
   align-items: flex-start;
 }
 
-nav div.halfButton buton {
+nav div.halfButton button {
   width: 50%;
 }
 
@@ -129,7 +167,7 @@ nav button.active:hover {
   color: var(--black);
 }
 
-nav div.halfButton  button:hover svg {
+nav div.halfButton button:hover svg {
   fill: var(--button-text-hover);
 }
 
@@ -175,6 +213,12 @@ h4 {
   margin-block-end: 0em;
 }
 
+h5 {
+  margin-block-end: 0em;
+  margin-left: 0.75%;
+  font-size: 120%
+}
+
 table {
   margin-left: 2%;
   margin-block-start: 1.0em;
@@ -185,12 +229,28 @@ table td {
   vertical-align: top;
 }
 
-p:not(#about p) {
+table td img {
+  width: 1.5vw;
+  scale: 90%;
+}
+
+table thead {
+  text-align: left;
+  border-bottom: 1px solid;
+}
+table thead th {
+  width: 20%;
+}
+table thead th:first-child {
+  width: 40%;
+}
+
+p:not(#about p, #consultancies p) {
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
 
-ul:not(#tools ul, #hobbies ul, #about ul) {
+ul:not(#tools ul, #hobbies ul, #about ul, #consultancies ul) {
   margin-block-start: 0em;
   margin-block-end: 1.0em;
 }
@@ -300,7 +360,7 @@ a:hover {
   margin-top: -0.5em;
 }
 
-.mulTitle {
+.multiTitle {
   margin-left: 1%;
   margin-top: -1.0em;
 }
@@ -343,6 +403,58 @@ table .beginner {
   min-width: 80px; /* hack to make the tables identically sized */
 }
 
+.grid-container {
+  color: black;
+  background-color: var(--body-background);
+  padding: 2vw 2vw 1vw; /* top | left and right | bottom */
+  border-radius: 2vw;
+  margin-bottom: 1vw;
+  margin-top: 2vw;
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 1vw;
+  grid-auto-flow: column;
+}
+
+.guide-header {
+  cursor: pointer;
+  width: fit-content;
+  color: var(--link-color)
+}
+.guide-header:hover {
+  color: var(--link-color-hover)
+}
+
+.guide-subheader {
+  margin-block-start: 0.2em;
+}
+
+.grid-container img {
+  max-width: 100%;
+  max-height: 30vh;
+}
+
+.grid-item img:last-child { /* change if img is centered in a flex */
+  padding-bottom: 1vw;
+}
+
+.grid-item:not(.grid-item:first-child) {
+  padding-left: 1vw;
+  border-left: 1px solid;
+  border-top: none;
+}
+
+.maxheight {
+  max-height: 300vh;  /* this doesn't work: height: auto; */
+  overflow-y: hidden;
+  transition: max-height 1.5s ease;
+}
+.zeroheight {
+  max-height: 0;  /* this doesn't work: height: 0; */
+  overflow-y: hidden;
+  transition: max-height 0.5s ease;
+}
+
 
 /* -- Id --- */
 #content {
@@ -350,6 +462,65 @@ table .beginner {
   background-color: var(--content-background);
   border: solid 4px var(--content-border);
   padding: 0.5%;
+}
+
+#consultancies {
+  padding: 1%;
+}
+#consultancies p {
+  margin: 1vw;
+}
+#consultancies #printGuide {
+  margin-bottom: 1.5vw;
+}
+#consultancies #introduction p:last-child,
+#consultancies #introLists p:nth-of-type(2) {
+  margin-bottom: 1.4em;
+}
+#consultancies ul {
+  margin-left: 0.5vw;
+}
+#consultancies #introLists ul,
+#consultancies #introLists table {
+  margin-top: 0vw;
+}
+#consultancies #introLists table td:nth-child(-n + 2){
+  padding-right: 1vw;
+}
+#consultancies #introLists table:last-child td:nth-child(-n + 2){
+  padding-right: 4vw;
+}
+#consultancies .experience ul {
+  margin-left: 0.5vw;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+#consultancies .experienceSubHeader {
+  flex-direction: column;
+}
+#consultancies .experience {
+  margin-block-end: 0.7em;
+}
+#consultancies .experience:nth-of-type(1) {
+  margin-block-start: -0.8em;
+}
+#consultancies .experience:last-child {
+  margin-block-end: 1.2em;
+}
+#consultancies #experienceConsult {
+  margin-top: 1.2em;
+}
+#consultancies #skillsList h2 {
+  margin-block-start: 0.8em;
+  margin-block-end: -0.5em;
+}
+#consultancies #skillsList table {
+  border-collapse: collapse;
+  margin-block-start: 0.5em;
+  width: 95%;
+}
+#consultancies #skillsList table td {
+  padding-left: 0.5vw;
 }
 
 #top {
@@ -368,8 +539,8 @@ table .beginner {
   visibility: hidden;
 }
 
-#image {
-  margin-bottom: -55px;
+#cloud {
+  margin-bottom: -20px;
 }
 
 #certificates table td {
@@ -398,9 +569,22 @@ table .beginner {
   margin-top: 1.1em;
 }
 
+#fourOfour {
+  text-align: center;
+  margin: 3vw;
+  width: 90vw;
+}
+
+#fourOfour > img {
+  width: 50%;
+}
+
+
 /* when using the browser print option */
 @media print {
-  header, footer {
+  header,
+  footer,
+  #printGuide {
     display: none;
   }
   .extra {
@@ -431,7 +615,7 @@ table .beginner {
     background-color: transparent;
   }
 
-  nav div.halfButton  button:hover svg {
+  nav div.sideButton button:hover svg {
     fill: var(--black);
   }
 
@@ -456,17 +640,23 @@ table .beginner {
     text-align: left;
   }
 
-  nav div.fullButton {
+  nav div.fullButton, nav div.sideButton {
     width: 100%;
+  }
+
+  nav div.fullButton {
+    order: 5;
+  }
+  nav div.sideButton:nth-child(2) { /* about */
+    order: 4;
+  }
+  nav div.sideButton:first-child { /* consult */
     order: 3;
   }
-
-  nav div.halfButton {
-    width: 100%;
+  nav div.sideButton { /* language */
     order: 2;
   }
-
-  nav div.halfButton:last-child {
+  nav div.sideButton:last-child { /* confetti & theme */
     order: 1;
   }
 
@@ -511,6 +701,18 @@ table .beginner {
     display: revert;
   }
 
+  .grid-container {
+    grid-auto-flow: row;
+    margin-bottom: 3vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+  .grid-item:not(.grid-item:first-child) {
+    padding-top: 2vw;
+    border-left: none;
+    border-top: 1px solid;
+  }
+
   #top {
     flex-direction: column-reverse;
   }
@@ -519,8 +721,10 @@ table .beginner {
     flex-direction: column;
   }
 
-  #image {
-    margin-bottom: 0px;
+  #cloud {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    align-self: center;
   }
 
   #url {

@@ -1,0 +1,413 @@
+{
+  "header": {
+    "document": "résumé",
+    "title": "Systems Developer",
+    "area": "Copenhagen"
+  },
+  "footer": "Copyright © REPLACE. All rights reserved.",
+  "about": {
+    "personality": {
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "I'm a naturally happy and outgoing person. I'm also very curious and not afraid to ask questions. I'm comfortable both with being sociable and working entirely on my own."
+        },
+        {
+          "type": "paragraph",
+          "content": "I enjoy helping people. I've posted answers on <a href=\"https://stackoverflow.com\" target=\"_blank\" rel=\"noopener noreferrer\">Stack Overflow</a> and I often join a server on <a href=\"https://discord.com\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a> where I help people with questions about programming. I've also tutored mathematics in the real world. I've been told I'm patient when teaching and explain things well."
+        }
+      ]
+    },
+    "passions": {
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "I'm passionate about taking responsibility for a given task. I rarely start implementing a solution until I understand the goal of the task. I'm persistent and I'll keep the ball rolling until the task is clarified, completed, tested, delivered, and <i>verified</i>. If that requires administrative tasks, like getting access to a company resource, then I view that as part of the task."
+        },
+        {
+          "type": "paragraph",
+          "content": "I enjoy the process from start to finish, which especially includes, but is not limited to:"
+        },
+        {
+          "type": "list",
+          "content": [
+            "Understanding the business needs",
+            "Talking to uses and other stakeholders",
+            "Collaborating on finding options & solutions for everyone's benefit",
+            "Identifying & fixing bugs",
+            "Delivering & finishing"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "While writing documentation isn't my favourite part of software development, I find it to be just as important as any other part. This includes user guides, both for end users, but also documentation on how to use a library. I believe the energy spent on creating software is wasted if nobody understands how to use it."
+        }
+      ]
+    },
+    "goals": {
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "My overall goal is to enjoy the process and have fun with it."
+        },
+        {
+          "type": "paragraph",
+          "content": "I have project goals. The project becomes my \"mission\" and I'll do what is in my power to see the project goals complete."
+        },
+        {
+          "type": "paragraph",
+          "content": "I have no preference between maintaining an existing system and being part of the team that creates a completely new one. In my experience maintaining an already existing system often requires adding new features. I take as much pleasure in fixing bugs as making something brand new."
+        }
+      ]
+    },
+    "strengthsWeak": {
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "I've found that my strengths are also my weaknesses. I can be perfectionistic, which at times is the enemy of \"good enough\". It can also save a lot of time revisiting the same feature over and over fixing bugs. I'm more inclined to \"get it right the first time\" than to \"get a head start and ship it early\"."
+        },
+        {
+          "type": "paragraph",
+          "content": "I'd like to know and remember everything, but I'm also aware that's it's not possible. I try to find a balance between the two by knowing enough to enable me to be productive and knowing how to easily find out details when I need it. For me, that means I'm often fuzzy on the details, and I'll have to make a quick lookup in the documentation."
+        },
+        {
+          "type": "paragraph",
+          "content": "I'm adaptive to change. If I need to learn a new language, a new tool, or use a different procedure, I'll be happy to learn and use it. However, I find it much more motivating to understand the reasoning for the change, even when I think trying out new technology in itself is fun."
+        }
+      ]
+    }
+  },
+  "languages": [
+    {
+      "language": "Danish",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Fluent"
+    }
+  ],
+  "hobbies": {
+    "include": ["Puzzles", "Woodworking"],
+    "extra": ["Home Renovation", "Science Fiction movies"]
+  },
+  "education": {
+    "edu2009": {
+      "name": "B.Sc. in Computer Science & Mathematics",
+      "place": "University of Copenhagen (<a href=\"https://di.ku.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">DIKU</a>)"
+    }
+  },
+  "experience": {
+    "exp202306": {
+      "title": "External Consultant as Systems Developer",
+      "projects": {
+        "pro202306": {
+          "name": "Analyzing dataflow through an Oracle database",
+          "results": {
+            "include": [
+                       "Created compact diagrams to reflect dataflow",
+                       "Suggested solutions to accommodate changes to incoming data"
+                     ]
+          }
+        }
+      }
+    },
+    "exp202208": {
+      "title": "External Consultant as Systems Developer",
+      "projects": {
+        "pro202208": {
+          "name": "Oracle PL/SQL based reporting using data from a SimCorp Dimension database",
+          "results": {
+            "include": [
+                       "Modified existing reports to comply with new business requirements",
+                       "Documented processes and solutions in Confluence",
+                       "Improved performance on large & business heavy queries"
+                     ]
+          }
+        }
+      }
+    },
+    "exp201608": {
+      "title": "Freelancing & Knowledge Acquisition",
+      "projects": {
+        "pro201609": {
+          "title": "Knowledge Acquisition",
+          "results": {
+            "include": [
+                       "Java, Javascript, Regex, a little Python & shell scripting",
+                       "Data structures & algorithms",
+                       "Calculous & linear algebra"
+                     ],
+            "extra": ["Successfully ran \"docker run hello-world\" on a Linux Mint :)"]
+          }
+        },
+        "pro202005": {
+          "title": "Small Personal Projects",
+          "results": {
+            "include": [
+                       "Created a Java project based on solutions to <a href=\"https://adventofcode.com\" target=\"_blank\" rel=\"noopener noreferrer\">advent of code</a>",
+                       "Wrote user scripts in vanilla JavaScript for use on <a href=\"https://stackoverflow.com\" target=\"_blank\" rel=\"noopener noreferrer\">Stack Overflow</a>"
+                     ],
+            "extra": ["Designed and implemented <b class=rainbow>this</b> data-driven résumé"]
+          }
+        }
+      }
+    },
+    "exp201208": {
+      "title": "External Consultant as Systems Developer",
+      "projects": {
+        "pro201208": {
+          "name": "Oracle based system with multiple interfaces",
+          "results": {
+            "include": [
+                       "Kept the system up to date with changing interfacing systems",
+                       "Continuously improved the system according to business requirements",
+                       "Established new methods for development & release procedures",
+                       "Created user guides and taught Git"
+                     ],
+            "extra": [
+                     "Changed procedures to accommodate Nordea IT standards",
+                     "Maintained system source integrity when migrating to new environment"
+                   ]
+          }
+        }
+      }
+    },
+    "exp201107": {
+      "title": "Consultant of IT and Processes",
+      "projects": {
+        "pro201107": {
+          "name": "Web portal end-user system based on Oracle & Java components",
+          "results": {
+            "include": [
+                       "Evaluated current processes",
+                       "Defined areas for improvement",
+                       "Introduced new overall processes"
+                     ]
+          }
+        }
+      }
+    },
+    "exp199805": {
+      "company": "Rambøll Informatik",
+      "projects": {
+        "pro201104": {
+          "name": ".NET based system for Arbejdstilsynet",
+          "title": "Systems Developer",
+          "results": {
+            "include": [
+                       "Performed regression tests"
+                     ]
+          }
+        },
+        "pro201004": {
+          "name": "Oracle based student administrative system for UNI-C",
+          "title": "Technical Site Coordinator",
+          "results": {
+            "include": [
+                       "Supervised the Indian teams on project lifecycle & technical challenges",
+                       "Defined code standard & teached best practice methods",
+                       "Performed code & work review",
+                       "Evaluated performance on the Indian side"
+                     ]
+          }
+        },
+        "pro200909": {
+          "name": "Oracle based student administrative system for UNI-C",
+          "title": "Systems Developer",
+          "results": {
+            "include": [
+                       "Acquired knowledge from previous vendor",
+                       "Design of user interface and modelled business logic",
+                       "Handover to L&T Infotech in India for development outsourcing"
+                     ]
+          }
+        },
+        "pro200905": {
+          "name": "Mærsk Electronic Product Catalogue",
+          "title": "Systems Expert",
+          "results": {
+            "include": [
+                       "Successful handover of a large Oracle PL/SQL system during a 3 months period to Tata Consultancy Services at a Mærsk location in London",
+                       "Kept maintaining the system during the transition to the Indian team"
+                     ]
+          }
+        },
+        "pro200002": {
+          "name": "Mærsk Electronic Product Catalogue",
+          "title": "Systems Developer",
+          "results": {
+            "include": [
+                       "Continuously developed & maintained a large Oracle PL/SQL system",
+                       "Optimized SQL queries",
+                       "Advised customer on user interfaces and technincal options",
+                       "Educated customer on system use"
+                     ],
+            "extra": [
+                     "On 24 hour \"on call\" support",
+                     "Managed patch and releases",
+                     "Developed web user interfaces using Oracle's PL/SQL built-in packages"
+                   ]
+          }
+        },
+        "pro199906": {
+          "name": "Standalone Windows GIS application",
+          "title": "Developer",
+          "results": {
+            "include": [
+                       "Created the application using esri GIS and Visual Basic 6.0",
+                       "Enabled resizable polygons and attaching points to them",
+                       "Ensuring interface with a large database for geographical data",
+                       "API for creation of images for upload to a webserver"
+                     ]
+          }
+        },
+        "pro199805": {
+          "name": "Electronic product catalogue for Louis Poulsen",
+          "title": "Developer",
+          "results": {
+            "include": [
+                       "Created load of test data into an Informix database",
+                       "Developed web user interfaces"
+                     ]
+          }
+        }
+      }
+    }
+  },
+  "list": {
+    "projectMethods": {
+      "content": {
+        "ite03": {"name": "Traditional Waterfall"}
+      }
+    },
+    "projectTools": {
+      "content": {
+        "ite06": {"name": "Local Sharepoint"},
+        "ite07": {"name": "Proprietary Tools"}
+      }
+    },
+    "developmentTools": {
+      "content": {
+        "ite02": {
+          "group": "Oracle Database Tools"
+        },
+        "ite04": {"name": "Git \"command line\""}
+      }
+    },
+    "workstationTools": {
+      "content": {
+        "ite10": {"name": "VPN (Virtual Private Network)"}
+      }
+    },
+    "industry": {
+      "content": {
+        "ite01": {
+          "group": "Transport & Logistics",
+          "items": {
+            "item0101": {"name": "Shipping"},
+            "item0102": {"name": "Railway"}
+          }
+        },
+        "ite02": {"name": "Pension"},
+        "ite03": {"name": "Education"},
+        "ite04": {
+          "group": "Finance",
+          "items": {
+            "item0401": {"name": "Capital Markets"},
+            "item0402": {"name": "Counterparty Credit Risk"},
+            "item0403": {"name": "Asset Management"}
+          }
+        }
+      }
+    },
+    "workAreas": {
+      "content": {
+        "ite01": {
+          "group": "User Experience",
+          "items": {
+            "item0101": {"name": "Usability"},
+            "item0102": {"name": "User Interface Design"}
+          }
+        },
+        "ite02": {
+          "group": "Analysis",
+          "items": {
+            "item0201": {"name": "Business Analysis"},
+            "item0202": {"name": "Systems Analysis"},
+            "item0203": {"name": "Data Analysis"},
+            "item0204": {"name": "Risk Analysis"}
+          }
+        },
+        "ite03": {
+          "group": "System Design",
+          "items": {
+            "item0301": {"name": "Program Design"},
+            "item0302": {"name": "Systems Interface Design"}
+          }
+        },
+        "ite04": {
+          "group": "Systems Development",
+          "items": {
+            "item0401": {"name": "Back-end"},
+            "item0402": {"name": "Front-end"},
+            "item0403": {"name": "Estimation"},
+            "item0404": {"name": "Performance Tuning"},
+            "item0405": {"name": "Error Correction"},
+            "item0406": {"name": "Code Refactoring"},
+            "item0407": {"name": "Data Modelling"},
+            "item0408": {"name": "Data Integration"},
+            "item0409": {"name": "Data Conversion"}
+          }
+        },
+        "ite05": {
+          "group": "Management",
+          "items": {
+            "item0501": {"name": "Technical Advisor"},
+            "item0502": {"name": "Project Management"},
+            "item0503": {"name": "Defect Management"},
+            "item0504": {"name": "Build Manager"},
+            "item0505": {"name": "Configuration Manager"},
+            "item0506": {"name": "Process Development"},
+            "item0507": {"name": "Workflow Evaluation"},
+            "item0508": {"name": "Quality Assurance"},
+            "item0509": {"name": "Project Handover"},
+            "item0510": {"name": "Outsourcing "},
+            "item0511": {"name": "Coordination"}
+          }
+        },
+        "ite06": {
+          "group": "Documentation",
+          "items": {
+            "item0601": {"name": "Requirement Specifications"},
+            "item0602": {"name": "UML & Use Case Modelling"},
+            "item0603": {"name": "Non-functional Requirements"},
+            "item0604": {"name": "Detailed Business Logic"},
+            "item0605": {"name": "Systems Architecture"},
+            "item0606": {"name": "Entity Relationship Modelling"},
+            "item0607": {"name": "Dataflow Diagrams"},
+            "item0608": {"name": "Test Reports"},
+            "item0609": {"name": "Precise Defect Reporting"},
+            "item0610": {"name": "Release Notes"},
+            "item0611": {"name": "User Manuals"}
+          }
+        },
+        "ite07": {
+          "group": "Testing",
+          "items": {
+            "item0701": {"name": "Creating Test Cases"},
+            "item0702": {"name": "Creating & finding Test Data"},
+            "item0703": {"name": "Test Plan"},
+            "item0704": {"name": "Unit Testing"},
+            "item0705": {"name": "Functional Testing"},
+            "item0706": {"name": "Smoke Testing"},
+            "item0707": {"name": "Integration Testing"},
+            "item0708": {"name": "Performance Testing"},
+            "item0709": {"name": "Stress Testing"},
+            "item0710": {"name": "Regression Testing"}
+          }
+        }
+      }
+    }
+  }
+}
